@@ -1,0 +1,64 @@
+/* Write your code here. */
+body {
+  margin: 0px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.h1 {
+  font-size: 34px;
+  font-family: roboto;
+}
+
+.image {
+  height: 28px;
+  margin: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  width: 300px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+.content {
+  font-size: 18px;
+  color: white;
+  font-family: roboto;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.green {
+  background-color: #2dca73;
+}
+
+.yellow {
+  background-color: #ffb800;
+}
+
+.red {
+  background-color: #ff0b37;
+}
+
+@media (min-width: 768px) {
+  .box {
+    width: 500px;
+  }
+  .h1 {
+    font-size: 50px;
+  }
+}
